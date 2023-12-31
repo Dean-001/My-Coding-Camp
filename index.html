@@ -1,7 +1,121 @@
-
-!DOCTYPE HTML>
+       <!DOCTYPE HTML>
 <html>
-<head><title>index.html</title></head>
+<head><title>Mwananchi Recruitment Agency</title>
+<style>
+    .subscribe-button{
+        background-color:red;
+        color:white;
+        border-radius:7px;
+        curser:pointer;
+        margin-right:20px;
+        padding-left:10px;
+        padding-right:10px;
+        padding-top:10px;
+        padding-bottom:10px;
+        transition:opacity 0.15s;
+        vertical-align:right;
+    }
+    .subscribe-button:Hover{
+    background-color:rgb(76,56,160)
+        color:white;
+        
+    }
+    .subscribe-button:active{
+        opacity:0.7;
+    }
+    .join-button{
+        background-color:white;
+        color:blue;
+        border-radius:7px;
+        border-color:rgb(70,110,170);
+        padding-left:10px;
+        padding-right:10px;
+        padding-top:10px;
+        padding-bottom:10px;
+        curser:pointer;
+        transition:background-color 0.15s,
+        color 0.15s;
+        vertical-align:right;
+    }
+    .join-button:hover{
+        background-color:rgb(20,50,170);
+        color:white;
+    }
+    .join-button:active{
+        opacity:0.7;
+    }
+    .tweeter-button{
+        background-color:rgb(2,158,255);
+        color:white;
+        padding-left:10px;
+        padding-right:10px;
+        padding-top:10px;
+        padding-bottom:10px;
+        border-radius:25px;
+        border-color:rgb(127,129,167);
+        curser:pointer;
+        margin-left:10px;
+        transition:box-shadow 1s;
+        vertical-align:left;
+        
+    }
+    .tweeter-button:hover{
+        background-color:white;
+        color:rgb(2,158,255);
+        box-shadow: 5px;5px;10px;rgba(0,0,0,0.5);
+    }
+    .tweeter-button:active{
+        opacity:0.7;
+    }
+    .video-title{
+        font-family:Aerial;
+        font-weight:bold;
+        font-size:18px;
+        width:280px;
+        text-align:center;
+        line-height:22px;
+    }
+    .video-stats{
+        font-family:Aerial;
+        font-weight:bold;
+        font-size:13px;
+        color:rgb(56,100,160);
+        margin-top:5px;
+    }
+    .video-author{
+        font-family:Aerial;
+        font-weight:bold;
+        font-size:10px;
+        color:rgb(0,0,0);
+        margin-bottom:30px;
+    }
+    .video-description{
+        font-family:Aerial;
+        font-weight:bold;
+        font-size:10px;
+        color:rgb(0,0,25);
+        width:200px;
+        line-height:12px;
+    }
+    .motto-text{
+        margin-bottom:50px;
+        font-size:12px;
+        background-color:rgb(10,168,255);
+        color:white;
+        padding-top:15px;
+        padding-bottom:15px;
+    }
+    .span-example{
+        color:rgb(0,70,20);
+        margin-left:6px;
+    }
+    .span-example:hover{
+        text-decoration:underline;
+        curser:pointer;
+    }
+    
+</style>
+</head>
 <body_style="background-color:powderblue">
 <div style="background-color:powderblue">
 <h1 style="background-color:green"style="text-alig:center;">Mwananchi Recruitment Agency</h1>
@@ -10,13 +124,13 @@
         <h2 style="background-color:white"></style>Your Fierce Travel Friend</h2>
         <button onclick="alert('on click alert event')">see below</button>
         <br><br>
-        <img id="multi" src="https://cf.ltkcdn.net/horoscopes/images/orig/258901-1600x1030-leo-animal-sign-purpose-zodiac.jpg" alt="image" width="300" height="180" id="image" onclick="alert('find the button')">
+        <img  id="multi" style="border:3px solid green;" src="https://cf.ltkcdn.net/horoscopes/images/orig/258901-1600x1030-leo-animal-sign-purpose-zodiac.jpg" alt="image" width="300" height="180" id="image" onclick="alert('find the button')">
         <br>
         <button onclick="multi.src='https://i.natgeofe.com/n/914ced12-24d0-4405-889e-4290b9f9009d/gray-wolf_thumb_3x2.JPG'">Wolf</button>
         <button onclick="multi.src='https://cf.ltkcdn.net/horoscopes/images/orig/258901-1600x1030-leo-animal-sign-purpose-zodiac.jpg'">Lion</button>
     
     </main>
-    <br><a href="https://www.Mwananchi Recruitment Agency.com" target="_blank">To Visit Our page 
+    <br><a href="https://youtube.com" target="_blank">To Visit Our page 
 <button onclick="alert('welcome to my website')"><mark>Click here</markr></button></a><br>
 <p style="color:white" ;style="border:3px solid maroon">Travel_Companions</p>
 
@@ -26,10 +140,9 @@
 <section2 style="background-color:rgba(100,100,100,0.5);"><i>Our staffs are well trained on online relations and have a handful of technical skills<br>enough to give you a <ins>professional</ins> <del>required</del> type of support.</i></div></section2><br><!--Coding is fun-->
 </article>
 </main>
-<body>
 <p><b><u>Common Mwananchi Recruitment Agencies</u></b></p><br>
 <h1 style="background-color:Orange;"><u>Jobs Available:</u><br>
-    <button><ul>1:<b>flight attendants</b><br>
+    <ul>1:<b>flight attendants</b><br>
         Requirements:<li>
         <br>passport
             <br>national ID
@@ -42,14 +155,26 @@
     3:<b>pilots</b><br>
     4:<b>cabin team</b><br>
     5:<b>Engineers</b><br>
-    </ul></button>
+    </ul>
 </h1><br>
-<h2><u>Watch the <sub>video for more</sub> information:</u></h2><br>
+<p class="video-title">Watch the video for more information</p>
+
 <video controls>
+<style>
+    video{
+        height:200px;
+        width:300px;
+        border:2px solid green;
+    }
+</style>
     <source src="https://EthiopianAirlines.com" type="video/mp4">
     <source src="https://qatarairways.com/" type="video/webm">
     video not supported
 </video>
+<p class="video-stats">3.4M views &#183; 6 months ago.</p>
+<p class="video-author">Kimani Chris &#10003</p><br>
+<p class="video-description">With us you will never walk alone, a smile on your face keeps us going,with us no regrets</p>
+
 <audio autoplay>
     <source src="https://kamemefm.com/" type="audio/mp3">
 </audio><br>
@@ -105,7 +230,7 @@
 <a href="products.html">Products</a><br>
 <a href="Services.html">Services</a><br>
 <a href="about.html">About Us</a><br>
-<a href="mailto:info@zarion@gmail.com">Send me an Email</a><br>
+<a href="mailto:info@zarion@gmail.com">Send Email</a><br>
 <br>
 <p><u>Employees</u></p>
     <table style="background-color:hsl(120,30%,57%)" border="2">
@@ -217,13 +342,12 @@
           </tr>
           
 </table>
-<"/*SELECT salary
-FROM employees
-ORDER BY age ASC
-"LIMIT 5 OFFSET 2"*/>
-    
 <br>
-<br><em><a href="back to the top">back to the top</a>.<br>         <br>>><a href="Next">Next</a></em>
+<br><em><a href="back to the top">back to the top</a>.<br>         <br>>><a href="https://w3schools.com">Next</a></em><br>
+<br><button class="subscribe-button"><b>SUBSCRIBE</b></button>
+<button class="join-button"><b>JOIN TELEGRAM</b></button>
+<button class="tweeter-button"><b>TWEETER</b></button>
+<p class="motto-text">We are the leader of the beginners, we lead they follow. <span class="span-example">Walk with Us</span></p>
 </form>
 </body>
 </header>
