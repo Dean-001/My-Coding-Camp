@@ -1,1 +1,115 @@
 
+<style>
+    .subscribe-button{
+        background-color:red;
+        color:white;
+        border-radius:7px;
+        curser:pointer;
+        margin-right:20px;
+        padding-left:10px;
+        padding-right:10px;
+        padding-top:10px;
+        padding-bottom:10px;
+        transition:opacity 0.15s;
+        vertical-align:right;
+    }
+    .subscribe-button:Hover{
+    background-color:rgb(76,56,160)
+        color:white;
+        
+    }
+    .subscribe-button:active{
+        opacity:0.7;
+    }
+    .join-button{
+        background-color:white;
+        color:blue;
+        border-radius:7px;
+        border-color:rgb(70,110,170);
+        padding-left:10px;
+        padding-right:10px;
+        padding-top:10px;
+        padding-bottom:10px;
+        curser:pointer;
+        transition:background-color 0.15s,
+        color 0.15s;
+        vertical-align:right;
+    }
+    .join-button:hover{
+        background-color:rgb(20,50,170);
+        color:white;
+    }
+    .join-button:active{
+        opacity:0.7;
+    }
+    .tweeter-button{
+        background-color:rgb(2,158,255);
+        color:white;
+        padding-left:10px;
+        padding-right:10px;
+        padding-top:10px;
+        padding-bottom:10px;
+        border-radius:25px;
+        border-color:rgb(127,129,167);
+        curser:pointer;
+        margin-left:10px;
+        transition:box-shadow 1s;
+        vertical-align:left;
+        
+    }
+    .tweeter-button:hover{
+        background-color:white;
+        color:rgb(2,158,255);
+        box-shadow: 5px;5px;10px;rgba(0,0,0,0.5);
+    }
+    .tweeter-button:active{
+        opacity:0.7;
+    }
+    .video-title{
+        font-family:Aerial;
+        font-weight:bold;
+        font-size:18px;
+        width:280px;
+        text-align:center;
+        line-height:22px;
+    }
+    .video-stats{
+        font-family:Aerial;
+        font-weight:bold;
+        font-size:13px;
+        color:rgb(56,100,160);
+        margin-top:5px;
+    }
+    .video-author{
+        font-family:Aerial;
+        font-weight:bold;
+        font-size:10px;
+        color:rgb(0,0,0);
+        margin-bottom:30px;
+    }
+    .video-description{
+        font-family:Aerial;
+        font-weight:bold;
+        font-size:10px;
+        color:rgb(0,0,25);
+        width:200px;
+        line-height:12px;
+    }
+    .motto-text{
+        margin-bottom:50px;
+        font-size:12px;
+        background-color:rgb(10,168,255);
+        color:white;
+        padding-top:15px;
+        padding-bottom:15px;
+    }
+    .span-example{
+        color:rgb(0,70,20);
+        margin-left:6px;
+    }
+    .span-example:hover{
+        text-decoration:underline;
+        curser:pointer;
+    }
+    
+</style>
